@@ -19,10 +19,10 @@ Take the following examples:
 
 ```mermaid
 flowchart LR
-  A[/Messy Merchant Descriptor/] e1@==> B@{ shape: processes, label: "Very Large Rule Based Algorithm" }
-  B e2@==> C[/Messy Merchant Name/]
-  e1@{ animate: true }
-  e2@{ animate: true}
+    A[/ Messy Merchant Descriptor /] e1@==> B@{ shape: processes, label: "Very Large Rule Based Algorithm" }
+    B e2@==> C[/ Messy Merchant Name /]
+    e1@{ animate: true }
+    e2@{ animate: true }
 ```
 
 Sometimes the very large rule based algorithm could correctly guess the merchant name from the merchant descriptor - like the Amazon example above. However, sometimes it could make mistakes such as the second example.
