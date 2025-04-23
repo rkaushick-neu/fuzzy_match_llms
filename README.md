@@ -73,7 +73,10 @@ First let's setup the API key in our environment variable from the terminal.
 
 ### Python Dependencies
 1. Install python (3.x)
-2. Install dependencies from requirements.txt (Coming soon)
+2. Install dependencies from requirements.txt 
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### SearXNG
 This project uses [SearXNG-Docker](https://github.com/searxng/searxng-docker/) for retrieving web context about merchants.
